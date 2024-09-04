@@ -1835,14 +1835,12 @@ ul {
   opacity: 0.5;
 }
 .lienhe form {
-  width: 70%;
-  margin: auto;
   padding: 20px;
   position: relative;
 }
 @media (min-width: 768px) {
   .lienhe form {
-    padding: 50px;
+    padding: 40px;
   }
 }
 .lienhe form::after {
@@ -1855,6 +1853,7 @@ ul {
   background-color: white;
   z-index: -1;
   opacity: 0.7;
+  border-radius: 5px;
 }
 .lienhe form * {
   margin-bottom: 20px;
@@ -1897,6 +1896,16 @@ ul {
 }
 .lienhe form textarea {
   height: 120px;
+}
+@media (max-width: 992px) {
+  .lienhe .map-contain {
+    margin-top: 40px;
+  }
+}
+.lienhe .map-contain iframe {
+  width: 100%;
+  max-height: 300px;
+  border-radius: 5px;
 }
 
 .chitiet .chitiet-title {

@@ -1281,6 +1281,7 @@ ul {
                     margin: 0;
                     border: 1px solid #608127;
                     outline: none;
+
                     @media (max-width:992px) {
                         width: 70%;
                     }
@@ -2250,13 +2251,13 @@ ul {
     }
 
     form {
-        width: 70%;
-        margin: auto;
         padding: 20px;
 
         @media (min-width:768px) {
-            padding: 50px;
+            padding: 40px;
         }
+
+
 
         position: relative;
 
@@ -2270,6 +2271,7 @@ ul {
             background-color: white;
             z-index: -1;
             opacity: .7;
+            border-radius: 5px;
         }
 
         & * {
@@ -2318,6 +2320,22 @@ ul {
             height: 120px;
         }
     }
+
+    .map-contain {
+        @media (max-width:992px) {
+                margin-top: 40px;
+            }
+        iframe {
+            width: 100%;
+            // height: 80%;
+            max-height: 300px;
+            border-radius: 5px;
+            
+
+        }
+    }
+
+
 }
 
 .chitiet {
